@@ -145,7 +145,14 @@ namespace PallindromeString
                         BasicProgram hcf = new BasicProgram();
                         hcf.HCF();
                         break;
-                   
+                    case 26:
+                        BasicProgram perimeter = new BasicProgram();
+                        perimeter.PerimeterRectangleCicle();
+                        break;
+                    case 27:
+                        BasicProgram sum = new BasicProgram();
+                        sum.SumDigit();
+                        break;
                 }
 
             } while (option != 0);
